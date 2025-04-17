@@ -5,14 +5,23 @@ Last Updated: 2022
 
 ## Demo
 9-DOF Robotic arm-gantry system:
+
 ![agmodel](https://github.com/user-attachments/assets/02b4113a-0378-4aa1-89f1-52a7f3ed9fb4)
 
 Circular trajectory tracking:
-![ellipse](https://github.com/user-attachments/assets/82227579-7851-4283-80e4-61f782ae1aa9)
+
+
+https://github.com/user-attachments/assets/ea48dda2-cc6c-4e1d-9811-5feb54c139ca
+
+
 
 
 Sinusoidal trajectory tracking:
-![sinusoidal](https://github.com/user-attachments/assets/7bf35043-6885-47d5-b3e7-de6aa77a880d)
+
+
+https://github.com/user-attachments/assets/7bff6f86-4158-422a-89b9-ecf21c4b4684
+
+
 
 ## Quickstart
 ```
@@ -34,6 +43,10 @@ python custom_trajectory.py
 
 To use custom algorithms e.g., Approximate inference for control (AICO) algorithm [Toussaint, 2009], modify robotcontrolpkg with inferencerobotcontrolpkg and run the following
 ```
+
+https://github.com/user-attachments/assets/c1324faf-165e-4814-9053-3d28150925d1
+
+
 source devel/setup.bash
 cd inferencerobotcontrolpkg/src/scripts/src
 chmod +x AICO_Roboticarm_gantry.py
