@@ -1,0 +1,9 @@
+# CMake generated Testfile for 
+# Source directory: /home/sawyercontrol/Desktop/robotcontrolpkg/src/motoman/src/motoman/motoman_driver
+# Build directory: /home/sawyercontrol/Desktop/robotcontrolpkg/build/motoman_driver
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(_ctest_motoman_driver_roslint_package "/home/sawyercontrol/Desktop/robotcontrolpkg/build/motoman_driver/catkin_generated/env_cached.sh" "/usr/bin/python2" "/opt/ros/kinetic/share/catkin/cmake/test/run_tests.py" "/home/sawyercontrol/Desktop/robotcontrolpkg/build/motoman_driver/test_results/motoman_driver/roslint-motoman_driver.xml" "--working-dir" "/home/sawyercontrol/Desktop/robotcontrolpkg/build/motoman_driver" "--return-code" "/opt/ros/kinetic/share/roslint/cmake/../../../lib/roslint/test_wrapper /home/sawyercontrol/Desktop/robotcontrolpkg/build/motoman_driver/test_results/motoman_driver/roslint-motoman_driver.xml make roslint_motoman_driver")
+add_test(_ctest_motoman_driver_roslaunch-check_tests_roslaunch_test_io_relay.xml "/home/sawyercontrol/Desktop/robotcontrolpkg/build/motoman_driver/catkin_generated/env_cached.sh" "/usr/bin/python2" "/opt/ros/kinetic/share/catkin/cmake/test/run_tests.py" "/home/sawyercontrol/Desktop/robotcontrolpkg/build/motoman_driver/test_results/motoman_driver/roslaunch-check_tests_roslaunch_test_io_relay.xml.xml" "--return-code" "/usr/bin/cmake -E make_directory /home/sawyercontrol/Desktop/robotcontrolpkg/build/motoman_driver/test_results/motoman_driver" "/opt/ros/kinetic/share/roslaunch/cmake/../scripts/roslaunch-check -o '/home/sawyercontrol/Desktop/robotcontrolpkg/build/motoman_driver/test_results/motoman_driver/roslaunch-check_tests_roslaunch_test_io_relay.xml.xml' '/home/sawyercontrol/Desktop/robotcontrolpkg/src/motoman/src/motoman/motoman_driver/tests/roslaunch_test_io_relay.xml' ")
+subdirs(gtest)

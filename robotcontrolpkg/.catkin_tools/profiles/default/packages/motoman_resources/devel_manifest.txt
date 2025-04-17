@@ -1,0 +1,5 @@
+motoman/src/motoman/motoman_resources
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_resources/cmake.lock /home/sawyercontrol/Desktop/robotcontrolpkg/devel/./cmake.lock
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_resources/share/motoman_resources/cmake/motoman_resourcesConfig.cmake /home/sawyercontrol/Desktop/robotcontrolpkg/devel/share/motoman_resources/cmake/motoman_resourcesConfig.cmake
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_resources/share/motoman_resources/cmake/motoman_resourcesConfig-version.cmake /home/sawyercontrol/Desktop/robotcontrolpkg/devel/share/motoman_resources/cmake/motoman_resourcesConfig-version.cmake
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_resources/lib/pkgconfig/motoman_resources.pc /home/sawyercontrol/Desktop/robotcontrolpkg/devel/lib/pkgconfig/motoman_resources.pc

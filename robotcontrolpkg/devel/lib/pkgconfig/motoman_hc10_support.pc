@@ -1,0 +1,1 @@
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_hc10_support/lib/pkgconfig/motoman_hc10_support.pc

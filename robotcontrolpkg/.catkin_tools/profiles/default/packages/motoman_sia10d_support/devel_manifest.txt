@@ -1,0 +1,5 @@
+motoman/src/motoman/motoman_sia10d_support
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_sia10d_support/cmake.lock /home/sawyercontrol/Desktop/robotcontrolpkg/devel/./cmake.lock
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_sia10d_support/share/motoman_sia10d_support/cmake/motoman_sia10d_supportConfig.cmake /home/sawyercontrol/Desktop/robotcontrolpkg/devel/share/motoman_sia10d_support/cmake/motoman_sia10d_supportConfig.cmake
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_sia10d_support/share/motoman_sia10d_support/cmake/motoman_sia10d_supportConfig-version.cmake /home/sawyercontrol/Desktop/robotcontrolpkg/devel/share/motoman_sia10d_support/cmake/motoman_sia10d_supportConfig-version.cmake
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_sia10d_support/lib/pkgconfig/motoman_sia10d_support.pc /home/sawyercontrol/Desktop/robotcontrolpkg/devel/lib/pkgconfig/motoman_sia10d_support.pc

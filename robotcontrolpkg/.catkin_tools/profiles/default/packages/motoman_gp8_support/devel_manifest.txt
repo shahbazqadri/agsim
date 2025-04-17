@@ -1,0 +1,5 @@
+motoman/src/motoman/motoman_gp8_support
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_gp8_support/cmake.lock /home/sawyercontrol/Desktop/robotcontrolpkg/devel/./cmake.lock
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_gp8_support/share/motoman_gp8_support/cmake/motoman_gp8_supportConfig-version.cmake /home/sawyercontrol/Desktop/robotcontrolpkg/devel/share/motoman_gp8_support/cmake/motoman_gp8_supportConfig-version.cmake
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_gp8_support/share/motoman_gp8_support/cmake/motoman_gp8_supportConfig.cmake /home/sawyercontrol/Desktop/robotcontrolpkg/devel/share/motoman_gp8_support/cmake/motoman_gp8_supportConfig.cmake
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_gp8_support/lib/pkgconfig/motoman_gp8_support.pc /home/sawyercontrol/Desktop/robotcontrolpkg/devel/lib/pkgconfig/motoman_gp8_support.pc

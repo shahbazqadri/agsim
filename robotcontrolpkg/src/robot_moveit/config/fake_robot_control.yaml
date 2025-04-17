@@ -1,0 +1,38 @@
+#this file was created for collecting parameter estimation data for the gantry. The actual robot_control.yaml is renamed to originalrobot_control.yaml
+robot:
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+
+  gantry_controller:
+    type: effort_controllers/JointTrajectoryController
+    joints: 
+      - xgantry_baselink
+      - ytrackplate_xgantry 
+
+    gains:
+        xgantry_baselink: {p: 0.0, i: 0.0, d: 0.0}
+        ytrackplate_xgantry: {p: 0.0, i: 0.0, d: 0.0}
+
+    constraints:
+      goal_time: 0.5                   # Override default
+      stopped_velocity_tolerance: 0 # Override default
+      xgantry_baselink:
+        #trajectory: 0.05               # Not enforced if unspecified
+        goal: 0.03                     # Not enforced if unspecified
+      ytrackplate_xgantry:
+        #trajectory: 0.05               # Not enforced if unspecified
+        goal: 0.03                     # Not enforced if unspecified
+
+controller_list:
+
+  - name: robot/gantry_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints: 
+      - xgantry_baselink
+      - ytrackplate_xgantry
+
+
+  

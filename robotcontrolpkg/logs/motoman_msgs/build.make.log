@@ -1,0 +1,146 @@
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target _motoman_msgs_generate_messages_check_deps_DynamicJointTrajectoryFeedback[0m
+[35m[1mScanning dependencies of target _motoman_msgs_generate_messages_check_deps_ReadSingleIO[0m
+[35m[1mScanning dependencies of target industrial_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target _motoman_msgs_generate_messages_check_deps_WriteSingleIO[0m
+[35m[1mScanning dependencies of target _motoman_msgs_generate_messages_check_deps_DynamicJointPoint[0m
+[35m[1mScanning dependencies of target _motoman_msgs_generate_messages_check_deps_DynamicJointTrajectory[0m
+[  0%] Built target industrial_msgs_generate_messages_lisp
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target _motoman_msgs_generate_messages_check_deps_DynamicJointsGroup[0m
+[35m[1mScanning dependencies of target _motoman_msgs_generate_messages_check_deps_DynamicJointState[0m
+[  0%] Built target _motoman_msgs_generate_messages_check_deps_DynamicJointPoint
+[  0%] Built target _motoman_msgs_generate_messages_check_deps_DynamicJointTrajectoryFeedback
+[  0%] Built target _motoman_msgs_generate_messages_check_deps_ReadSingleIO
+[  0%] Built target _motoman_msgs_generate_messages_check_deps_WriteSingleIO
+[  0%] Built target _motoman_msgs_generate_messages_check_deps_DynamicJointTrajectory
+[35m[1mScanning dependencies of target _motoman_msgs_generate_messages_check_deps_CmdJointTrajectoryEx[0m
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target industrial_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target industrial_msgs_generate_messages_nodejs
+[  0%] Built target _motoman_msgs_generate_messages_check_deps_DynamicJointsGroup
+[  0%] Built target _motoman_msgs_generate_messages_check_deps_DynamicJointState
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target industrial_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target motoman_msgs_generate_messages_java_gradle[0m
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target industrial_msgs_generate_messages_cpp
+[  2%] [34m[1mGenerating Java gradle project from motoman_msgs[0m
+[  2%] Built target trajectory_msgs_generate_messages_cpp
+[  2%] Built target trajectory_msgs_generate_messages_py
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_eus[0m
+[  2%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target industrial_msgs_generate_messages_py[0m
+[  2%] Built target _motoman_msgs_generate_messages_check_deps_CmdJointTrajectoryEx
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  2%] Built target industrial_msgs_generate_messages_py
+[35m[1mScanning dependencies of target industrial_msgs_generate_messages_eus[0m
+[  2%] Built target trajectory_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target motoman_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target motoman_msgs_generate_messages_nodejs[0m
+[  2%] Built target std_msgs_generate_messages_eus
+[  2%] Built target industrial_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target motoman_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target motoman_msgs_generate_messages_py[0m
+[  4%] [34m[1mGenerating Lisp code from motoman_msgs/DynamicJointsGroup.msg[0m
+[  6%] [34m[1mGenerating Javascript code from motoman_msgs/DynamicJointsGroup.msg[0m
+[  8%] [34m[1mGenerating Javascript code from motoman_msgs/DynamicJointTrajectory.msg[0m
+[35m[1mScanning dependencies of target motoman_msgs_generate_messages_java[0m
+[ 10%] [34m[1mGenerating C++ code from motoman_msgs/DynamicJointsGroup.msg[0m
+[ 13%] [34m[1mGenerating Python from MSG motoman_msgs/DynamicJointsGroup[0m
+[ 15%] [34m[1mGenerating Java gradle project from motoman_msgs[0m
+[ 19%] [34m[1mGenerating Lisp code from motoman_msgs/DynamicJointTrajectory.msg[0m
+[ 19%] [34m[1mGenerating Javascript code from motoman_msgs/DynamicJointTrajectoryFeedback.msg[0m
+[ 21%] [34m[1mGenerating Python from MSG motoman_msgs/DynamicJointTrajectory[0m
+[ 23%] [34m[1mGenerating Javascript code from motoman_msgs/DynamicJointPoint.msg[0m
+[ 26%] [34m[1mGenerating Lisp code from motoman_msgs/DynamicJointTrajectoryFeedback.msg[0m
+[ 28%] [34m[1mGenerating Lisp code from motoman_msgs/DynamicJointPoint.msg[0m
+[ 30%] [34m[1mGenerating Javascript code from motoman_msgs/DynamicJointState.msg[0m
+[ 32%] [34m[1mGenerating Lisp code from motoman_msgs/DynamicJointState.msg[0m
+[ 34%] [34m[1mGenerating C++ code from motoman_msgs/DynamicJointTrajectory.msg[0m
+[ 36%] [34m[1mGenerating Python from MSG motoman_msgs/DynamicJointTrajectoryFeedback[0m
+[ 39%] [34m[1mGenerating Lisp code from motoman_msgs/CmdJointTrajectoryEx.srv[0m
+[ 41%] [34m[1mGenerating Lisp code from motoman_msgs/WriteSingleIO.srv[0m
+[ 43%] [34m[1mGenerating Javascript code from motoman_msgs/CmdJointTrajectoryEx.srv[0m
+[ 45%] [34m[1mGenerating Lisp code from motoman_msgs/ReadSingleIO.srv[0m
+[ 47%] [34m[1mGenerating Python from MSG motoman_msgs/DynamicJointPoint[0m
+[ 50%] [34m[1mGenerating Python from MSG motoman_msgs/DynamicJointState[0m
+[ 52%] [34m[1mGenerating Javascript code from motoman_msgs/WriteSingleIO.srv[0m
+[ 52%] Built target motoman_msgs_generate_messages_lisp
+[ 54%] [34m[1mGenerating C++ code from motoman_msgs/DynamicJointTrajectoryFeedback.msg[0m
+[ 58%] [34m[1mGenerating Python code from SRV motoman_msgs/CmdJointTrajectoryEx[0m
+[ 58%] [34m[1mGenerating Javascript code from motoman_msgs/ReadSingleIO.srv[0m
+[ 60%] [34m[1mGenerating C++ code from motoman_msgs/DynamicJointPoint.msg[0m
+[ 63%] [34m[1mGenerating C++ code from motoman_msgs/DynamicJointState.msg[0m
+[ 63%] Built target motoman_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target motoman_msgs_generate_messages_eus[0m
+[ 65%] [34m[1mGenerating EusLisp code from motoman_msgs/DynamicJointsGroup.msg[0m
+[ 67%] [34m[1mCompiling Java code for motoman_msgs[0m
+[ 69%] [34m[1mGenerating Python code from SRV motoman_msgs/WriteSingleIO[0m
+[ 69%] Built target motoman_msgs_generate_messages_java
+[ 71%] [34m[1mGenerating Python code from SRV motoman_msgs/ReadSingleIO[0m
+[ 73%] [34m[1mGenerating C++ code from motoman_msgs/CmdJointTrajectoryEx.srv[0m
+[ 76%] [34m[1mGenerating EusLisp code from motoman_msgs/DynamicJointTrajectory.msg[0m
+[ 78%] [34m[1mGenerating C++ code from motoman_msgs/WriteSingleIO.srv[0m
+[ 80%] [34m[1mGenerating EusLisp code from motoman_msgs/DynamicJointTrajectoryFeedback.msg[0m
+[ 82%] [34m[1mGenerating C++ code from motoman_msgs/ReadSingleIO.srv[0m
+[ 84%] [34m[1mGenerating EusLisp code from motoman_msgs/DynamicJointPoint.msg[0m
+[ 86%] [34m[1mGenerating EusLisp code from motoman_msgs/DynamicJointState.msg[0m
+[ 89%] [34m[1mGenerating Python msg __init__.py for motoman_msgs[0m
+[ 91%] [34m[1mGenerating Python srv __init__.py for motoman_msgs[0m
+[ 93%] [34m[1mGenerating EusLisp code from motoman_msgs/CmdJointTrajectoryEx.srv[0m
+[ 95%] [34m[1mGenerating EusLisp code from motoman_msgs/WriteSingleIO.srv[0m
+[ 97%] [34m[1mGenerating EusLisp code from motoman_msgs/ReadSingleIO.srv[0m
+[ 97%] Built target motoman_msgs_generate_messages_py
+[100%] [34m[1mGenerating EusLisp manifest code for motoman_msgs[0m
+[100%] Built target motoman_msgs_generate_messages_cpp
+[0m
+
+[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[100%] Built target motoman_msgs_generate_messages_eus
+[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[2B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[0K[35D[1B[1m> Loading projects[m[0K[18D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/sawyercontrol/Desktop/robotcontrolpkg/build/motoman_msgs/java/motoman_msgs/build.gradle into local compilation cache > Compiling build file '/home/sawyercontrol/Desktop/robotcontrolpkg/build/motoman_msgs/java/motoman_msgs/build.gradle' to cross build script cache[m[296D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/sawyercontrol/Desktop/robotcontrolpkg/build/motoman_msgs/java/motoman_msgs/build.gradle into local compilation cache > Compiling build file '/home/sawyercontrol/Desktop/robotcontrolpkg/build/motoman_msgs/java/motoman_msgs/build.gradle' to cross build script cache[m[296D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/sawyercontrol/Desktop/robotcontrolpkg/build/motoman_msgs/java/motoman_msgs/build.gradle into local compilation cache > Compiling build file '/home/sawyercontrol/Desktop/robotcontrolpkg/build/motoman_msgs/java/motoman_msgs/build.gradle' to cross build script cache[m[296D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project > Resolve dependencies of :classpath[m[51D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project > Resolve dependencies of :classpath[m[51D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project > Resolve dependencies of :classpath[m[51D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project > Resolve dependencies of :classpath[m[51D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project > Resolve dependencies of :classpath[m[51D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project > Resolve dependencies of :classpath[m[51D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project > Resolve dependencies of :classpath[m[51D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project > Resolve dependencies of :classpath[m[51D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project > Resolve dependencies of :classpath[m[51D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [2s][m[35D[1B[1m> root project > Resolve dependencies of :classpath[m[51D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [2s][m[35D[1B[1m> root project > Resolve files of :classpath[m[0K[44D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [2s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [2s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [2s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [2s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [2s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [2s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [2s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [2s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [3s][m[37D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [3s][m[37D[2B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [3s][m[0K[33D[1B[1m> :generatePomFileForMavenJavaPublication[m[41D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 20% EXECUTING [3s][m[34D[1B[1m> :generateSources > Resolve dependencies of :runtime[m[53D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 20% EXECUTING [3s][m[34D[1B[1m> :generateSources > Resolve dependencies of :runtime[m[53D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 20% EXECUTING [3s][m[34D[1B[1m> :generateSources > Resolve dependencies of :runtime[m[53D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 20% EXECUTING [3s][m[34D[1B[1m> :generateSources > Resolve dependencies of :runtime[m[53D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 20% EXECUTING [3s][m[34D[1B[1m> :generateSources > Resolve dependencies of :runtime > industrial_msgs-0.7.1.pom[m[81D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 20% EXECUTING [3s][m[34D[1B[1m> :generateSources > Resolve dependencies of :runtime > industrial_msgs-0.7.1.pom[m[81D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 20% EXECUTING [3s][m[34D[1B[1m> :generateSources > Resolve dependencies of :runtime[m[0K[53D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 20% EXECUTING [4s][m[34D[1B[1m> :generateSources > Resolve dependencies of :runtime > industrial_msgs-0.7.1.pom[m[81D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 20% EXECUTING [4s][m[34D[1B[1m> :generateSources > Resolve dependencies of :runtime > industrial_msgs-0.7.1.pom[m[81D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 20% EXECUTING [4s][m[34D[1B[1m> :generateSources > Resolve dependencies of :runtime[m[0K[53D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 20% EXECUTING [4s][m[34D[1B[1m> :generateSources > Resolve dependencies of :runtime[m[53D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 20% EXECUTING [4s][m[34D[1B[1m> :generateSources > Resolve dependencies of :runtime > industrial_msgs-0.7.1.pom[m[81D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 20% EXECUTING [4s][m[34D[1B[1m> :generateSources > Resolve dependencies of :runtime > industrial_msgs-0.7.1.pom[m[81D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 20% EXECUTING [4s][m[34D[1B[1m> :generateSources > Resolve dependencies of :runtime[m[0K[53D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 20% EXECUTING [4s][m[34D[1B[1m> :generateSources > Resolve dependencies of :runtime > industrial_msgs-0.7.1.pom[m[81D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 20% EXECUTING [4s][m[34D[1B[1m> :generateSources > Resolve dependencies of :runtime > industrial_msgs-0.7.1.pom[m[81D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 20% EXECUTING [4s][m[34D[1B[1m> :generateSources > Resolve dependencies of :runtime > industrial_msgs-0.7.1.pom[m[81D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 20% EXECUTING [5s][m[34D[1B[1m> :generateSources > Resolve dependencies of :runtime[m[0K[53D[1B[2A[0K
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m[0K
+
+* What went wrong:
+Could not resolve all files for configuration ':runtime'.
+[33m> [39mCould not find org.ros.rosjava_messages:industrial_msgs:0.7.1.
+  Searched in the following locations:
+    - file:/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_msgs/share/maven/org/ros/rosjava_messages/industrial_msgs/0.7.1/industrial_msgs-0.7.1.pom
+    - file:/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_msgs/share/maven/org/ros/rosjava_messages/industrial_msgs/0.7.1/industrial_msgs-0.7.1.jar
+    - file:/home/sawyercontrol/Desktop/robotcontrolpkg/devel/share/maven/org/ros/rosjava_messages/industrial_msgs/0.7.1/industrial_msgs-0.7.1.pom
+    - file:/home/sawyercontrol/Desktop/robotcontrolpkg/devel/share/maven/org/ros/rosjava_messages/industrial_msgs/0.7.1/industrial_msgs-0.7.1.jar
+    - file:/opt/ros/kinetic/share/maven/org/ros/rosjava_messages/industrial_msgs/0.7.1/industrial_msgs-0.7.1.pom
+    - file:/opt/ros/kinetic/share/maven/org/ros/rosjava_messages/industrial_msgs/0.7.1/industrial_msgs-0.7.1.jar
+    - https://github.com/rosjava/rosjava_mvn_repo/raw/master/org/ros/rosjava_messages/industrial_msgs/0.7.1/industrial_msgs-0.7.1.pom
+    - https://github.com/rosjava/rosjava_mvn_repo/raw/master/org/ros/rosjava_messages/industrial_msgs/0.7.1/industrial_msgs-0.7.1.jar
+    - file:/home/sawyercontrol/.m2/repository/org/ros/rosjava_messages/industrial_msgs/0.7.1/industrial_msgs-0.7.1.pom
+    - file:/home/sawyercontrol/.m2/repository/org/ros/rosjava_messages/industrial_msgs/0.7.1/industrial_msgs-0.7.1.jar
+[0K
+[0K
+[2A[1m<[0;31;1m===[0;39;1m----------> 30% EXECUTING [5s][m[34D[1B> IDLE[6D[1B[2A    - http://repository.springsource.com/maven/bundles/release/org/ros/rosjava_messages/industrial_msgs/0.7.1/industrial_msgs-0.7.1.pom[0K
+    - http://repository.springsource.com/maven/bundles/release/org/ros/rosjava_messages/industrial_msgs/0.7.1/industrial_msgs-0.7.1.jar[0K
+    - http://repository.springsource.com/maven/bundles/external/org/ros/rosjava_messages/industrial_msgs/0.7.1/industrial_msgs-0.7.1.pom
+    - http://repository.springsource.com/maven/bundles/external/org/ros/rosjava_messages/industrial_msgs/0.7.1/industrial_msgs-0.7.1.jar
+    - https://jcenter.bintray.com/org/ros/rosjava_messages/industrial_msgs/0.7.1/industrial_msgs-0.7.1.pom
+    - https://jcenter.bintray.com/org/ros/rosjava_messages/industrial_msgs/0.7.1/industrial_msgs-0.7.1.jar
+  Required by:
+      project :
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 6s
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[100%] Built target motoman_msgs_generate_messages_java_gradle
+[35m[1mScanning dependencies of target motoman_msgs_generate_messages[0m
+[100%] Built target motoman_msgs_generate_messages

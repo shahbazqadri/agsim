@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_motopos_d500_support/setup.sh

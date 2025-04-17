@@ -1,0 +1,8 @@
+prefix=/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/scripts
+
+Name: scripts
+Description: Description of scripts
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/robot_moveit2/setup.sh

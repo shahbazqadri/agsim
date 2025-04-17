@@ -1,0 +1,1 @@
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_msgs/share/roseus/ros/motoman_msgs/srv/CmdJointTrajectoryEx.l

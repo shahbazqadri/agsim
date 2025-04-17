@@ -1,0 +1,5 @@
+scripts
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/scripts/cmake.lock /home/sawyercontrol/Desktop/robotcontrolpkg/devel/./cmake.lock
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/scripts/share/scripts/cmake/scriptsConfig-version.cmake /home/sawyercontrol/Desktop/robotcontrolpkg/devel/share/scripts/cmake/scriptsConfig-version.cmake
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/scripts/share/scripts/cmake/scriptsConfig.cmake /home/sawyercontrol/Desktop/robotcontrolpkg/devel/share/scripts/cmake/scriptsConfig.cmake
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/scripts/lib/pkgconfig/scripts.pc /home/sawyercontrol/Desktop/robotcontrolpkg/devel/lib/pkgconfig/scripts.pc

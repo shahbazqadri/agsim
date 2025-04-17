@@ -1,0 +1,1 @@
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_msgs/share/gennodejs/ros/motoman_msgs/msg/DynamicJointsGroup.js

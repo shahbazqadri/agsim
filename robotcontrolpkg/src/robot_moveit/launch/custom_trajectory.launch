@@ -1,0 +1,7 @@
+
+<launch>
+
+  <node name="custom_trajectory" pkg="robot_moveit" type="custom_trajectory.py" respawn="false" output="screen">
+  </node>
+
+</launch>

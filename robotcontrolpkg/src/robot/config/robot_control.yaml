@@ -1,0 +1,98 @@
+robot:
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+
+  xgantry_baselink_controller:
+    type: effort_controllers/JointPositionController
+    joint: xgantry_baselink
+    pid: {p: 30000.0, i: 0, d: 8000.0}
+
+  ytrackplate_xgantry_controller:
+    type: effort_controllers/JointPositionController
+    joint: ytrackplate_xgantry
+    pid: {p: 50000, i: 0.0, d: 1000}
+
+  joint_s_controller:
+    type: effort_controllers/JointPositionController
+    joint: joint_s
+    pid: { p: 100, d: 20, i: 0 }
+
+  joint_l_controller:
+    type: effort_controllers/JointPositionController
+    joint: joint_l
+    pid: { p: 100, d: 30, i: 0 }
+  
+  joint_e_controller:
+    type: effort_controllers/JointPositionController
+    joint: joint_e
+    pid: { p: 100, d: 30, i: 0 }
+
+  joint_u_controller:
+    type: effort_controllers/JointPositionController
+    joint: joint_u
+    pid: { p: 100, d: 30, i: 0 }
+
+  joint_r_controller:
+    type: effort_controllers/JointPositionController
+    joint: joint_r
+    pid: { p: 100, d: 30, i: 0 }
+
+  joint_b_controller:
+    type: effort_controllers/JointPositionController
+    joint: joint_b
+    pid: { p: 100, d: 30, i: 0 }
+
+  joint_t_controller:
+    type: effort_controllers/JointPositionController
+    joint: joint_t
+    pid: { p: 1, d: 0.1, i: 0 }
+
+ # wavetank_controller:
+  #  type: effort_controllers/JointTrajectoryController
+   # joints: 
+    #  - xgantry_baselink
+     # - ytrackplate_xgantry
+      #- joint_s
+      #- joint_l
+      #- joint_e
+      #- joint_u
+      #- joint_r
+      #- joint_b
+      #- joint_t
+
+    #gains:
+     #   xgantry_baselink: {p: 30000.0, i: 0, d: 8000.0}
+      #  ytrackplate_xgantry: {p: 50000, i: 0.0, d: 1000}
+       # joint_s: { p: 100, d: 20, i: 0 }
+       # joint_l: { p: 100, d: 30, i: 0 }
+       # joint_e: { p: 100, d: 30, i: 0 }
+       # joint_u: { p: 100, d: 30, i: 0 }
+       # joint_r: { p: 100, d: 30, i: 0 }
+       # joint_b: { p: 100, d: 30, i: 0 }
+       # joint_t: { p: 1, d: 0.1, i: 0 }
+
+    #constraints: 
+     # goal_time: 2.0
+
+
+
+
+controller_list:
+    - name: robot/wavetank_controller
+      action_ns: follow_joint_trajectory
+      type: FollowJointTrajectory
+      default: true
+      joints: 
+        - xgantry_baselink
+        - ytrackplate_xgantry
+        - joint_s
+        - joint_l
+        - joint_e
+        - joint_u
+        - joint_r
+        - joint_b
+        - joint_t
+
+
+  

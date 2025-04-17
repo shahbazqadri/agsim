@@ -1,0 +1,5 @@
+motoman/src/motoman/motoman_hc20_support
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_hc20_support/cmake.lock /home/sawyercontrol/Desktop/robotcontrolpkg/devel/./cmake.lock
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_hc20_support/share/motoman_hc20_support/cmake/motoman_hc20_supportConfig.cmake /home/sawyercontrol/Desktop/robotcontrolpkg/devel/share/motoman_hc20_support/cmake/motoman_hc20_supportConfig.cmake
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_hc20_support/share/motoman_hc20_support/cmake/motoman_hc20_supportConfig-version.cmake /home/sawyercontrol/Desktop/robotcontrolpkg/devel/share/motoman_hc20_support/cmake/motoman_hc20_supportConfig-version.cmake
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_hc20_support/lib/pkgconfig/motoman_hc20_support.pc /home/sawyercontrol/Desktop/robotcontrolpkg/devel/lib/pkgconfig/motoman_hc20_support.pc

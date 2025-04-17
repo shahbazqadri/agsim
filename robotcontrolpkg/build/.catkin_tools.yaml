@@ -1,0 +1,6 @@
+devel_space: /home/sawyercontrol/Desktop/robotcontrolpkg/devel
+install: false
+install_space: /home/sawyercontrol/Desktop/robotcontrolpkg/install
+profile: default
+source_space: /home/sawyercontrol/Desktop/robotcontrolpkg/src
+workspace: /home/sawyercontrol/Desktop/robotcontrolpkg

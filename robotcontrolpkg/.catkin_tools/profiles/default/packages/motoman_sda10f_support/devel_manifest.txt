@@ -1,0 +1,5 @@
+motoman/src/motoman/motoman_sda10f_support
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_sda10f_support/cmake.lock /home/sawyercontrol/Desktop/robotcontrolpkg/devel/./cmake.lock
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_sda10f_support/share/motoman_sda10f_support/cmake/motoman_sda10f_supportConfig-version.cmake /home/sawyercontrol/Desktop/robotcontrolpkg/devel/share/motoman_sda10f_support/cmake/motoman_sda10f_supportConfig-version.cmake
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_sda10f_support/share/motoman_sda10f_support/cmake/motoman_sda10f_supportConfig.cmake /home/sawyercontrol/Desktop/robotcontrolpkg/devel/share/motoman_sda10f_support/cmake/motoman_sda10f_supportConfig.cmake
+/home/sawyercontrol/Desktop/robotcontrolpkg/devel/.private/motoman_sda10f_support/lib/pkgconfig/motoman_sda10f_support.pc /home/sawyercontrol/Desktop/robotcontrolpkg/devel/lib/pkgconfig/motoman_sda10f_support.pc

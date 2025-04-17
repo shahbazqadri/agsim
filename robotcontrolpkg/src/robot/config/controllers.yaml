@@ -1,0 +1,18 @@
+# Publish all joint states -----------------------------------
+xy-stage_a:  
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50  
+
+  wavetank_controller:
+    type: effort_controllers/JointTrajectoryController
+    joints: 
+      - xystagexgantry_baselink
+      - xystageytrackplate_xgantry
+      - xystagejoint_s
+      - xystagejoint_l
+      - xystagejoint_e
+      - xystagejoint_u
+      - xystagejoint_r
+      - xystagejoint_b
+      - xystagejoint_t

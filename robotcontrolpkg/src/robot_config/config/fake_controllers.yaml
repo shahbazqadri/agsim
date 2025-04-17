@@ -1,0 +1,12 @@
+controller_list:
+  - name: fake_robotgroup_controller
+    joints:
+      - xystagexgantry_baselink
+      - xystageytrackplate_xgantry
+      - xystagejoint_s
+      - xystagejoint_l
+      - xystagejoint_e
+      - xystagejoint_u
+      - xystagejoint_r
+      - xystagejoint_b
+      - xystagejoint_t
