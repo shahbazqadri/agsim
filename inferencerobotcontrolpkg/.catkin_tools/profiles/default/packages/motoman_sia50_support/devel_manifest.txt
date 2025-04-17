@@ -1,0 +1,5 @@
+motoman/motoman_sia50_support
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/motoman_sia50_support/cmake.lock /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/./cmake.lock
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/motoman_sia50_support/share/motoman_sia50_support/cmake/motoman_sia50_supportConfig-version.cmake /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/share/motoman_sia50_support/cmake/motoman_sia50_supportConfig-version.cmake
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/motoman_sia50_support/share/motoman_sia50_support/cmake/motoman_sia50_supportConfig.cmake /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/share/motoman_sia50_support/cmake/motoman_sia50_supportConfig.cmake
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/motoman_sia50_support/lib/pkgconfig/motoman_sia50_support.pc /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/lib/pkgconfig/motoman_sia50_support.pc

@@ -1,0 +1,5 @@
+robot
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/robot/cmake.lock /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/./cmake.lock
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/robot/share/robot/cmake/robotConfig-version.cmake /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/share/robot/cmake/robotConfig-version.cmake
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/robot/share/robot/cmake/robotConfig.cmake /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/share/robot/cmake/robotConfig.cmake
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/robot/lib/pkgconfig/robot.pc /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/lib/pkgconfig/robot.pc

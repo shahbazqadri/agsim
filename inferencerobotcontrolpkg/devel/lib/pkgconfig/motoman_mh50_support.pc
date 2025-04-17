@@ -1,0 +1,1 @@
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/motoman_mh50_support/lib/pkgconfig/motoman_mh50_support.pc

@@ -1,0 +1,1 @@
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/robot_moveit/share/robot_moveit/cmake/robot_moveitConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/motoman_msgs/share/roseus/ros/motoman_msgs/msg/DynamicJointTrajectory.l

@@ -1,0 +1,21 @@
+<launch>
+  
+
+        <param name="robot_description" textfile="$(find robot)/urdf/xy-stage_arm.urdf"/>
+    
+        <rosparam file= "$(find robot)/config/robot_control.yaml" command= "load" />
+        
+        
+
+       <node name= "controller_spawner" pkg= "controller_manager" type= "spawner" respawn= "false"
+            ns= "/robot" args=  "joint_state_controller xgantry_baselink_controller  ytrackplate_xgantry_controller joint_s_controller joint_l_controller joint_e_controller joint_u_controller joint_r_controller joint_b_controller joint_t_controller --timeout 60">
+        </node>
+
+
+        <node name= "robot_state_publisher" pkg= "robot_state_publisher" type= "robot_state_publisher" respawn="false" output="screen">
+            <remap from="/joint_states" to="/robot/joint_states"/>
+        </node>
+
+ </launch>
+
+        

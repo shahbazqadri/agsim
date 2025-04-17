@@ -1,0 +1,5 @@
+scripts
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/scripts/cmake.lock /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/./cmake.lock
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/scripts/share/scripts/cmake/scriptsConfig.cmake /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/share/scripts/cmake/scriptsConfig.cmake
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/scripts/share/scripts/cmake/scriptsConfig-version.cmake /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/share/scripts/cmake/scriptsConfig-version.cmake
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/scripts/lib/pkgconfig/scripts.pc /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/lib/pkgconfig/scripts.pc

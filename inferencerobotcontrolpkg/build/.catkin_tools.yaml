@@ -1,0 +1,6 @@
+devel_space: /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel
+install: false
+install_space: /home/wmf-admin/Desktop/inferencerobotcontrolpkg/install
+profile: default
+source_space: /home/wmf-admin/Desktop/inferencerobotcontrolpkg/src
+workspace: /home/wmf-admin/Desktop/inferencerobotcontrolpkg

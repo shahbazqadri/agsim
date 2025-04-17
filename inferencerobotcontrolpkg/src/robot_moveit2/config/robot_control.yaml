@@ -1,0 +1,83 @@
+robot:
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+
+  wavetank_controller:
+    type: effort_controllers/JointTrajectoryController
+    joints: 
+      - xgantry_baselink
+      - ytrackplate_xgantry
+      - joint_s
+      - joint_l
+      - joint_e
+      - joint_u
+      - joint_r
+      - joint_b
+      - joint_t
+
+    gains:
+      xgantry_baselink: {p: 30000.0, i: 0, d: 8000.0}
+      ytrackplate_xgantry: {p: 50000, i: 0.0, d: 1000}
+      joint_s: { p: 100, d: 20, i: 0} 
+      joint_l: { p: 100, d: 30, i: 0}
+      joint_e: { p: 100, d: 30, i: 0}
+      joint_u: { p: 100, d: 30, i: 0}
+      joint_r: { p: 100, d: 30, i: 0}
+      joint_b: { p: 100, d: 30, i: 0}
+      joint_t: { p: 1, d: 0.1, i: 0}
+  
+    constraints:
+      goal_time: 0.5                   # Override default
+      stopped_velocity_tolerance: 0 # Override default
+      xgantry_baselink:
+        #trajectory: 0.05               # Not enforced if unspecified
+        goal: 0.03                     # Not enforced if unspecified
+      ytrackplate_xgantry:
+        #trajectory: 0.05               # Not enforced if unspecified
+        goal: 0.03                     # Not enforced if unspecified
+      joint_s:
+        #trajectory: 0.05               # Not enforced if unspecified
+        goal: 0.03                     # Not enforced if unspecified
+      joint_l:
+        #trajectory: 0.05               # Not enforced if unspecified
+        goal: 0.03                     # Not enforced if unspecified
+      joint_e:
+        #trajectory: 0.05               # Not enforced if unspecified
+        goal: 0.03                     # Not enforced if unspecified
+      joint_u:
+        #trajectory: 0.05               # Not enforced if unspecified
+        goal: 0.03                     # Not enforced if unspecified
+      joint_r:
+        #trajectory: 0.05               # Not enforced if unspecified
+        goal: 0.03                     # Not enforced if unspecified
+      joint_b:
+        #trajectory: 0.05               # Not enforced if unspecified
+        goal: 0.03                     # Not enforced if unspecified
+      joint_t:
+        #trajectory: 0.05               # Not enforced if unspecified
+        goal: 0.03                     # Not enforced if unspecified
+ 
+    
+
+
+
+
+controller_list:
+    - name: wavetank_controller
+      action_ns: follow_joint_trajectory
+      type: FollowJointTrajectory
+      default: true
+      joints: 
+        - xgantry_baselink
+        - ytrackplate_xgantry
+        - joint_s
+        - joint_l
+        - joint_e
+        - joint_u
+        - joint_r
+        - joint_b
+        - joint_t
+
+
+  

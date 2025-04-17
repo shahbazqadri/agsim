@@ -1,0 +1,8 @@
+prefix=/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/scripts
+
+Name: scripts
+Description: Description of scripts
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

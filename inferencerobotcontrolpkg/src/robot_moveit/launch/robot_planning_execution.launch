@@ -1,0 +1,39 @@
+<launch>
+<!-- Add urdf to param server-->
+    <param name="robot_description" textfile="$(find robot)/urdf/xy-stage_arm.urdf"/>
+
+<!-- Gazebo launch-->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch"/>
+
+
+    <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model xy-stage_arm"/>
+
+
+ <!-- load controller_list -->
+  <!--<rosparam file="$(find robot_moveit)/config/robot_control.yaml" command="load"/>-->  
+    
+
+<!-- Load joint controller configurations to parameter server-->
+    <!--<rosparam file="$(find robot_moveit)/config/robot_controllers.yaml" command="load"/>-->
+
+<!-- Load Controllers -->
+    <!--<node name="controller_spawner" pkg="controller_manager" ns="/robot" type="spawner" respawn="false" output="screen" args="joint_state_controller wavetank_controller"/>-->
+
+<!-- Load joint controller configurations from YAML file to parameter server -->
+    <rosparam file="$(find robot_moveit)/config/ros_controllers.yaml" command="load"/>
+
+<!-- Load the controllers -->
+    <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" ns="/robot"
+    output="screen" args="joint_state_controller wavetank_controller "/>
+<!-- Robot state publisher to take joint values and publish to tf-->
+    <node name= "robot_state_publisher" pkg= "robot_state_publisher" type= "robot_state_publisher" respawn="false" output="screen">
+            <remap from="/joint_states" to="/robot/joint_states"/>
+    </node>
+<!-- Movegroup for moveit-->
+    <include file="$(find robot_moveit)/launch/planning_context.launch">
+        <arg name="load_robot_description" value="true"/>
+    </include>
+    <include file="$(find robot_config)/launch/move_group.launch"/>
+    <include file="$(find robot_config)/launch/moveit_rviz.launch"/>
+</launch>
+    

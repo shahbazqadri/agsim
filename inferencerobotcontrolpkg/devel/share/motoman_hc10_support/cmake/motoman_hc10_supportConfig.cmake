@@ -1,0 +1,1 @@
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/motoman_hc10_support/share/motoman_hc10_support/cmake/motoman_hc10_supportConfig.cmake

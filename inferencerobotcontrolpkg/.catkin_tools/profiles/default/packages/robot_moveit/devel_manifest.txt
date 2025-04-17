@@ -1,0 +1,5 @@
+robot_moveit
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/robot_moveit/cmake.lock /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/./cmake.lock
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/robot_moveit/share/robot_moveit/cmake/robot_moveitConfig-version.cmake /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/share/robot_moveit/cmake/robot_moveitConfig-version.cmake
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/robot_moveit/share/robot_moveit/cmake/robot_moveitConfig.cmake /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/share/robot_moveit/cmake/robot_moveitConfig.cmake
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/robot_moveit/lib/pkgconfig/robot_moveit.pc /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/lib/pkgconfig/robot_moveit.pc

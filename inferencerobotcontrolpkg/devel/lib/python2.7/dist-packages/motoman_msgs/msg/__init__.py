@@ -1,0 +1,1 @@
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/motoman_msgs/lib/python2.7/dist-packages/motoman_msgs/msg/__init__.py

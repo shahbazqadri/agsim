@@ -1,0 +1,1 @@
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/motoman_gp12_support/share/motoman_gp12_support/cmake/motoman_gp12_supportConfig-version.cmake

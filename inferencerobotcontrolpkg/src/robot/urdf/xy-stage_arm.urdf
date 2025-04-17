@@ -1,0 +1,540 @@
+<?xml version="1.0" ?>
+<robot name="xy-stage_arm" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <material name="grey">
+    <color rgba="0.5 0.5 0.5 1"/>
+  </material>
+
+  <material name="darkgrey">
+    <color rgba="0.66 0.66 0.66 1"/>
+  </material>
+
+  <material name="greytransparent">
+    <color rgba="0.4 0.4 0.4 1"/>
+  </material>
+
+  <material name="whiteglow">
+    <color rgba="0.96 0.96 0.96 1"/>
+  </material>
+
+
+  <link name="world"/>
+  <!--<model:GroundPlane>
+  <link name="link">
+    <xyz>0 0 -3.0</xyz>
+  </link>
+  </model:GroundPlane>-->
+  <link name="xystagebase_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="-2.4957 -2.5004 -0.031256"/>
+      <mass value="1165.5"/> <!--kg-->
+      <inertia ixx="126.91" ixy="6.262E-06" ixz="0.00018024" iyy="0.21414" iyz="-0.00083152" izz="126.92"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://robot/meshes/xslides1.STL"/>
+      </geometry>
+      <material name="grey"/>
+
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://robot/meshes/xslides1.STL"/>
+      </geometry>
+    </collision>
+  </link>
+  <gazebo reference="xystagebase_link">
+    <turnGravityOff>true</turnGravityOff>
+    <selfCollide>true</selfCollide>
+    <material>Gazebo/Grey</material>
+  </gazebo>
+  <joint name="xystagebase_link_to_world" type="fixed">
+    <origin rpy="0 0 0" xyz="0 0 3.0"/>
+    <parent link="world"/>
+    <child link="xystagebase_link"/>
+  </joint>
+<link
+    name="wavetank">
+    <inertial>
+      <origin xyz="-0.8011 -2.39844477999296 0.535384574132653" rpy="0 0 0" />
+      <mass  value="20368.045297705" />
+      <inertia
+        ixx="47730.8197893653"
+        ixy="-6.29829198658557E-12"
+        ixz="1.82961492531036E-12"
+        iyy="6933.72061386835"
+        iyz="-1138.78258753914"
+        izz="50230.8647944708" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robot/meshes/wavetank.STL" />
+      </geometry>
+      <material name="greytransparent"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robot/meshes/wavetank.STL" />
+      </geometry>
+    </collision>
+  </link>
+  
+  <gazebo reference="wavetank">
+    <turnGravityOff>false</turnGravityOff>
+    <selfCollide>true</selfCollide>
+    <material>Gazebo/GreyTransparent</material>
+  </gazebo>
+  <joint name="wavetank_to_world" type="fixed">
+    <origin rpy="0 0 0" xyz="-1.25 0.985 0"/>
+    <parent link="world"/>
+    <child link="wavetank"/>
+  </joint>
+
+  
+  <link name="xystagexgantry">
+    <inertial>
+      <origin rpy="0 0 0" xyz="-2.5159 -0.77243 0.072707"/>
+      <mass value="408.084"/> <!--kg-->
+      <inertia ixx="0.9196" ixy="-0.026539" ixz="0.24074" iyy="179.13" iyz="0.00037916" izz="179.86"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://robot/meshes/xgantry1.STL"/>
+      </geometry>
+      <material name="darkgrey"/>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://robot/meshes/xgantry1.STL"/>
+      </geometry>
+    </collision>
+  </link>
+  <gazebo reference="xystagexgantry">
+    <turnGravityOff>true</turnGravityOff>
+    <selfCollide>true</selfCollide>
+    <material>Gazebo/DarkGrey</material>
+  </gazebo>
+  <joint name="xgantry_baselink" type="prismatic">
+    <origin rpy="-1.5708 0 -1.5708" xyz="-2.4956 -0.44133 0.004434"/>
+    <parent link="xystagebase_link"/>
+    <child link="xystagexgantry"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="2900" lower="0.25" upper="3" velocity="1"/>
+  </joint>
+  <link name="xystageytrackplate">
+    <inertial>
+      <origin rpy="0 0 0" xyz="-1.90352365343823 -0.76171904259831 -0.31360425347862"/>
+      <mass value="113.22"/><!--kg-->
+      <inertia ixx="5.91515323723484" ixy="0.00219896215887128" ixz="-0.00667404225706946" iyy="5.10939777041719" iyz="1.46597477257873" izz="2.09488309853994"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://robot/meshes/ytrackplate1.STL"/>
+      </geometry>
+      <material name="whiteglow"/>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://robot/meshes/ytrackplate1.STL"/>
+      </geometry>
+    </collision>
+  </link>
+  <gazebo reference="xystageytrackplate">
+    <turnGravityOff>true</turnGravityOff>
+    <selfCollide>true</selfCollide>
+    <material>Gazebo/WhiteGlow</material>
+  </gazebo>
+  <joint name="ytrackplate_xgantry" type="prismatic">
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <parent link="xystagexgantry"/>
+    <child link="xystageytrackplate"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="1300" lower="-1.5" upper="0.75" velocity="1"/>
+  </joint>
+
+
+  <!-- SIA10D links and joints are adapted from the motoman driver package at  https://github.com/ros-industrial/motoman -->
+
+
+  <!--link list--> 
+  <link name="xystagesia10dbase_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://motoman_sia10d_support/meshes/sia10d/collision/MOTOMAN_BASE.stl"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://motoman_sia10d_support/meshes/sia10d/collision/MOTOMAN_BASE.stl"/>
+      </geometry>
+      <material name="yellow">
+        <color rgba="0 1 1 1"/>
+      </material>
+    </collision>
+    <inertial>
+      <mass value="400"/>
+      <!-- Arbitrarily large value, to simulate bolting down in case of absence of fixed joint--> 
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+  </link>
+  <gazebo reference="xystagesia10dbase_link">
+    <turnGravityOff>true</turnGravityOff>
+    <selfCollide>true</selfCollide>
+    <material>Gazebo/Blue</material>
+  </gazebo>
+  <link name="xystagelink_s">
+    <visual>
+      <geometry>
+        <mesh filename="package://motoman_sia10d_support/meshes/sia10d/collision/MOTOMAN_AXIS_S.stl"/>
+      </geometry>
+      <material name="silver">
+        <color rgba="0.8 0.8 0.8 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://motoman_sia10d_support/meshes/sia10d/collision/MOTOMAN_AXIS_S.stl"/>
+      </geometry>
+      <material name="yellow"/>
+    </collision>
+    <inertial>
+      <mass value="13.746057"/>
+      <inertia ixx="0.070027808" ixy="0.0" ixz="0.0" iyy="0.077808312" iyz="0.0" izz="0.043654657"/>
+      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0046451930 -0.018976267"/>
+    </inertial>
+  </link>
+  <gazebo reference="xystagelink_s">
+    <turnGravityOff>true</turnGravityOff>
+    <selfCollide>true</selfCollide>
+    <material>Gazebo/White</material>
+  </gazebo>
+  <link name="xystagelink_l">
+    <visual>
+      <origin rpy="1.57 3.1416 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://motoman_sia10d_support/meshes/sia10d/collision/MOTOMAN_AXIS_L.stl"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <origin rpy="1.57 3.1416 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://motoman_sia10d_support/meshes/sia10d/collision/MOTOMAN_AXIS_L.stl"/>
+      </geometry>
+      <material name="yellow"/>
+    </collision>
+    <inertial>
+      <mass value="5.227999"/>
+      <inertia ixx="0.016063413" ixy="0.0" ixz="0.0" iyy="0.10522920" iyz="0.0" izz="0.10250891"/>
+      <origin rpy="0.0 0.0 0.0" xyz="0.11422130 0.0 0.018935113"/>
+    </inertial>
+  </link>
+  <gazebo reference="xystagelink_l">
+    <turnGravityOff>true</turnGravityOff>
+    <selfCollide>true</selfCollide>
+    <material>Gazebo/Blue</material>
+  </gazebo>
+  <link name="xystagelink_e">
+    <visual>
+      <origin rpy="0 0 3.1415" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://motoman_sia10d_support/meshes/sia10d/collision/MOTOMAN_AXIS_E.stl"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+    <collision>
+      <origin rpy="0 0 3.1415" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://motoman_sia10d_support/meshes/sia10d/collision/MOTOMAN_AXIS_E.stl"/>
+      </geometry>
+      <material name="yellow"/>
+    </collision>
+    <inertial>100.000
+      <mass value="4.7092004"/>
+      <inertia ixx="0.030190273" ixy="0.0" ixz="0.0" iyy="0.030943336" iyz="0.0" izz="0.0096760191"/>
+      <origin rpy="0.0 0.0 0.0" xyz="0.0 -0.011901001 -0.036023969"/>
+    </inertial>
+  </link>
+  <gazebo reference="xystagelink_e">
+    <turnGravityOff>true</turnGravityOff>
+    <selfCollide>true</selfCollide>
+    <material>Gazebo/White</material>
+  </gazebo>
+  <link name="xystagelink_u">
+    <visual>
+      <origin rpy="1.57 -3.1415 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://motoman_sia10d_support/meshes/sia10d/collision/MOTOMAN_AXIS_U.stl"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <origin rpy="1.57 -3.1415 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://motoman_sia10d_support/meshes/sia10d/collision/MOTOMAN_AXIS_U.stl"/>
+      </geometry>
+      <material name="yellow"/>
+    </collision>
+    <inertial>
+      <mass value="3.1488649"/>
+      <inertia ixx="0.083840132" ixy="0.0" ixz="0.0" iyy="0.0061641860" iyz="0.0" izz="0.083291837"/>
+      <origin rpy="0.0 0.0 0.0" xyz="0.0 -0.015659426 0.13525753"/>
+    </inertial>
+  </link>
+  <gazebo reference="xystagelink_u">
+    <turnGravityOff>true</turnGravityOff>
+    <selfCollide>true</selfCollide>
+    <material>Gazebo/Blue</material>
+  </gazebo>
+  <link name="xystagelink_r">
+    <visual>
+      <origin rpy="0 0 3.1416" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://motoman_sia10d_support/meshes/sia10d/collision/MOTOMAN_AXIS_R.stl"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+    <collision>
+      <origin rpy="0 0 3.1416" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://motoman_sia10d_support/meshes/sia10d/collision/MOTOMAN_AXIS_R.stl"/>
+      </geometry>
+      <material name="yellow"/>
+    </collision>
+    <inertial>
+      <mass value="3.0270943"/>
+      <inertia ixx="0.017471059" ixy="0.0" ixz="0.0" iyy="0.017175292" iyz="0.0" izz="0.0049008824"/>
+      <origin rpy="0.0 0.0 0.0" xyz="0.0 -0.011271807 -0.0416"/>
+    </inertial>
+  </link>
+  <gazebo reference="xystagelink_r">
+    <turnGravityOff>true</turnGravityOff>
+    <selfCollide>true</selfCollide>
+    <material>Gazebo/White</material>
+  </gazebo>
+  <link name="xystagelink_b">
+    <visual>
+      <origin rpy="-1.57 0 3.1416" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://motoman_sia10d_support/meshes/sia10d/collision/MOTOMAN_AXIS_B.stl"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <origin rpy="-1.57 0 3.1416" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://motoman_sia10d_support/meshes/sia10d/collision/MOTOMAN_AXIS_B.stl"/>
+      </geometry>
+      <material name="yellow"/>
+    </collision>
+    <inertial>
+      <mass value="2.3902999"/>
+      <inertia ixx="0.080" ixy="0.0" ixz="0.0" iyy="0.0038377449" iyz="0.0" izz="0.080"/>
+      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0074364051 0.078721289"/>
+    </inertial>
+  </link>
+  <gazebo reference="xystagelink_b">
+    <turnGravityOff>true</turnGravityOff>
+    <selfCollide>true</selfCollide>
+    <material>Gazebo/Blue</material>
+  </gazebo>
+  <link name="xystagelink_t">
+    <visual>
+      <geometry>
+        <mesh filename="package://motoman_sia10d_support/meshes/sia10d/collision/MOTOMAN_AXIS_T.stl"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://motoman_sia10d_support/meshes/sia10d/collision/MOTOMAN_AXIS_T.stl"/>
+      </geometry>
+      <material name="yellow"/>
+    </collision>
+    <inertial>
+      <mass value="0.63670412"/>
+      <inertia ixx="0.00058471221" ixy="0.0" ixz="0.0" iyy="0.0005929671" iyz="0.0" izz="0.001081389"/>
+      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+    </inertial>
+  </link>
+  <gazebo reference="xystagelink_t">
+    <turnGravityOff>true</turnGravityOff>
+    <selfCollide>true</selfCollide>
+    <material>Gazebo/White</material>
+  </gazebo>
+  <!-- end of link list -->
+  <!-- joint list-->
+  <joint name="joint_s" type="revolute">
+    <parent link="xystagesia10dbase_link"/>
+    <child link="xystagelink_s"/>
+    <origin rpy="0 0 0" xyz="0 0 0.36"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="100" lower="-3.1415" upper="3.1415" velocity="2.9670"/>
+  </joint>
+  <joint name="joint_l" type="revolute">
+    <parent link="xystagelink_s"/>
+    <child link="xystagelink_l"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="100" lower="-1.9198" upper="1.9198" velocity="2.9670"/>
+  </joint>
+  <joint name="joint_e" type="revolute">
+    <parent link="xystagelink_l"/>
+    <child link="xystagelink_e"/>
+    <origin rpy="0 0 0" xyz="0 0 0.36"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="100" lower="-2.9670" upper="2.9670" velocity="2.9670"/>
+  </joint>
+  <joint name="joint_u" type="revolute">
+    <parent link="xystagelink_e"/>
+    <child link="xystagelink_u"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <axis xyz="0 -1 0"/>
+    <limit effort="100" lower="-2.3561" upper="2.3561" velocity="2.9670"/>
+  </joint>
+  <joint name="joint_r" type="revolute">
+    <parent link="xystagelink_u"/>
+    <child link="xystagelink_r"/>
+    <origin rpy="0 0 0" xyz="0 0 0.360"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="100" lower="-3.1415" upper="3.1415" velocity="3.4906"/>
+  </joint>
+  <joint name="joint_b" type="revolute">
+    <parent link="xystagelink_r"/>
+    <child link="xystagelink_b"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <axis xyz="0 -1 0"/>
+    <limit effort="100" lower="-1.9198" upper="1.9198" velocity="3.4906"/>
+  </joint>
+  <joint name="joint_t" type="revolute">
+    <parent link="xystagelink_b"/>
+    <child link="xystagelink_t"/>
+    <origin rpy="0 0 0" xyz="0 0 0.155"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="100" lower="-3.1415" upper="3.1415" velocity="6.9813"/>
+  </joint>
+  <!--end of joint list -->
+  <joint name="motomantoxystage" type="fixed">
+    <origin rpy="-1.577 -1.557 0" xyz="0.29 0.645 0.6"/>
+    <parent link="xystageytrackplate"/>
+    <child link="xystagesia10dbase_link"/>
+  </joint>
+
+
+  <transmission name="transmission_x">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="xgantry_baselink">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="x_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </actuator>
+  </transmission>
+
+  <transmission name="transmission_y">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="ytrackplate_xgantry">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="y_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </actuator>
+  </transmission>
+
+  <transmission name="transmission_s">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_s">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="s_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </actuator>
+  </transmission>
+
+  <transmission name="transmission_l">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_l">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="l_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </actuator>
+  </transmission>
+
+  <transmission name="transmission_e">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_e">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="e_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </actuator>
+  </transmission>
+
+  <transmission name="transmission_u">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_u">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="u_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </actuator>
+  </transmission>
+
+  <transmission name="transmission_r">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_r">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="r_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </actuator>
+  </transmission>
+
+  <transmission name="transmission_b">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_b">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="b_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </actuator>
+  </transmission>
+
+  <transmission name="transmission_t">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_t">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="t_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </actuator>
+  </transmission>
+  <gazebo>
+    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+     <robotNamespace>/robot</robotNamespace>
+    </plugin>
+  </gazebo>
+  
+</robot>
+

@@ -1,0 +1,1 @@
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/motoman_msgs/share/gennodejs/ros/motoman_msgs/msg/DynamicJointTrajectory.js

@@ -1,0 +1,1 @@
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/motoman_sia10d_support/share/motoman_sia10d_support/cmake/motoman_sia10d_supportConfig.cmake

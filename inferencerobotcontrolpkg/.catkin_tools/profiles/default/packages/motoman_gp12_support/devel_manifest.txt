@@ -1,0 +1,5 @@
+motoman/motoman_gp12_support
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/motoman_gp12_support/cmake.lock /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/./cmake.lock
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/motoman_gp12_support/share/motoman_gp12_support/cmake/motoman_gp12_supportConfig.cmake /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/share/motoman_gp12_support/cmake/motoman_gp12_supportConfig.cmake
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/motoman_gp12_support/share/motoman_gp12_support/cmake/motoman_gp12_supportConfig-version.cmake /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/share/motoman_gp12_support/cmake/motoman_gp12_supportConfig-version.cmake
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/motoman_gp12_support/lib/pkgconfig/motoman_gp12_support.pc /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/lib/pkgconfig/motoman_gp12_support.pc

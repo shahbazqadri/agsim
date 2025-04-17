@@ -1,0 +1,5 @@
+motoman/motoman_ms210_support
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/motoman_ms210_support/cmake.lock /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/./cmake.lock
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/motoman_ms210_support/share/motoman_ms210_support/cmake/motoman_ms210_supportConfig-version.cmake /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/share/motoman_ms210_support/cmake/motoman_ms210_supportConfig-version.cmake
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/motoman_ms210_support/share/motoman_ms210_support/cmake/motoman_ms210_supportConfig.cmake /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/share/motoman_ms210_support/cmake/motoman_ms210_supportConfig.cmake
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/motoman_ms210_support/lib/pkgconfig/motoman_ms210_support.pc /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/lib/pkgconfig/motoman_ms210_support.pc

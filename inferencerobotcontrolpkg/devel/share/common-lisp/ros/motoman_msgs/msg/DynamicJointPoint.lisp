@@ -1,0 +1,1 @@
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/motoman_msgs/share/common-lisp/ros/motoman_msgs/msg/DynamicJointPoint.lisp

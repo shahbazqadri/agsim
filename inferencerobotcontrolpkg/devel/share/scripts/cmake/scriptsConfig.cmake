@@ -1,0 +1,1 @@
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/scripts/share/scripts/cmake/scriptsConfig.cmake

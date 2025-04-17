@@ -1,0 +1,41 @@
+arm_controller:
+  type: position_controllers/JointTrajectoryController
+  joints: 
+      - xystagexgantry_baselink
+      - xystageytrackplate_xgantry
+      - xystagejoint_s
+      - xystagejoint_l
+      - xystagejoint_e
+      - xystagejoint_u
+      - xystagejoint_r
+      - xystagejoint_b
+      - xystagejoint_t
+
+  constraints:
+      goal_time: 0.6
+      stopped_velocity_tolerance: 0.05
+      xystagexgantry_baselink: {trajectory: 0.1, goal: 0.1}
+      xystageytrackplate_xgantry: {trajectory: 0.1, goal: 0.1}
+      xystagejoint_s: {trajectory: 0.1, goal: 0.1}
+      xystagejoint_l: {trajectory: 0.1, goal: 0.1}
+      xystagejoint_e: {trajectory: 0.1, goal: 0.1}
+      xystagejoint_u: {trajectory: 0.1, goal: 0.1}
+      xystagejoint_r: {trajectory: 0.1, goal: 0.1}
+      xystagejoint_b: {trajectory: 0.1, goal: 0.1}
+      xystagejoint_t: {trajectory: 0.1, goal: 0.1}
+  
+      stop_trajectory_duration: 0.5
+  state_publish_rate:  25
+  action_monitor_rate: 10
+joint_group_position_controller:
+  type: position_controllers/JointGroupPositionController
+  joints: 
+      - xystagexgantry_baselink
+      - xystageytrackplate_xgantry
+      - xystagejoint_s
+      - xystagejoint_l
+      - xystagejoint_e
+      - xystagejoint_u
+      - xystagejoint_r
+      - xystagejoint_b
+      - xystagejoint_t

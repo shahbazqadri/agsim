@@ -1,0 +1,1 @@
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/motoman_gp8_support/share/motoman_gp8_support/cmake/motoman_gp8_supportConfig.cmake

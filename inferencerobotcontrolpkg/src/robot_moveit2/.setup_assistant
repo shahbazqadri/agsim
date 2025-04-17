@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: robot
+    relative_path: urdf/xy-stage_arm.urdf
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/xy-stage_arm.srdf
+  CONFIG:
+    author_name: shahbazqadri
+    author_email: test@123.com
+    generated_timestamp: 1615415691

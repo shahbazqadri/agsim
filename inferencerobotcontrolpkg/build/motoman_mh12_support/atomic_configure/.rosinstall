@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/motoman_mh12_support/setup.sh

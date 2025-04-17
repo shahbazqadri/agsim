@@ -1,0 +1,2 @@
+motoman/motoman
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/motoman/cmake.lock /home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/./cmake.lock

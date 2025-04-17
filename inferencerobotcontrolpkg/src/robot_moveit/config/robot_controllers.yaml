@@ -1,0 +1,22 @@
+robot:
+  controller_list:
+  - name: wavetan_gantry_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints: 
+      - xgantry_baselink
+      - ytrackplate_xgantry
+
+  - name: wavetank_arm_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints:
+      - joint_s
+      - joint_l
+      - joint_e
+      - joint_u
+      - joint_r
+      - joint_b
+      - joint_t

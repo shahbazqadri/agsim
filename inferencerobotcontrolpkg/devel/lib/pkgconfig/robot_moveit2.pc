@@ -1,0 +1,1 @@
+/home/wmf-admin/Desktop/inferencerobotcontrolpkg/devel/.private/robot_moveit2/lib/pkgconfig/robot_moveit2.pc
