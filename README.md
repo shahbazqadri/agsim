@@ -43,10 +43,6 @@ python custom_trajectory.py
 
 To use custom algorithms e.g., Approximate inference for control (AICO) algorithm [Toussaint, 2009], modify robotcontrolpkg with inferencerobotcontrolpkg and run the following
 ```
-
-https://github.com/user-attachments/assets/c1324faf-165e-4814-9053-3d28150925d1
-
-
 source devel/setup.bash
 cd inferencerobotcontrolpkg/src/scripts/src
 chmod +x AICO_Roboticarm_gantry.py
